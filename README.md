@@ -4,7 +4,7 @@ This repository contains a React application that interacts with Solidity smart 
 <h3>How to run the code</h3>
 <ul>
 <li>Clone the repository to your machine by running the following command in your terminal:</li>
-git clone https://github.com/[username]/react-solidity-smart-contracts.git
+git clone https://github.com/genemasaka/Solidity.git
 
 <li>Install the necessary dependencies by running the following command in the project's root directory:</li>
 npm install
