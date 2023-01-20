@@ -1,14 +1,20 @@
-# Create hardhat project template
+#react-solidity-smart-contracts
+This repository contains a React application that interacts with Solidity smart contracts that are compiled using Hardhat.
 
-## Configuration
+##How to run the code
+<ul>
+<li>Clone the repository to your machine by running the following command in your terminal:</li>
+git clone https://github.com/[username]/react-solidity-smart-contracts.git
 
-1.  Rename the .env.example to .env and put your key here.
-2.  If you need to deploy to a network not already built-in you can edit the hardhat.config.js to add it.
-3.  Edit the package.json project info.
+<li>Install the necessary dependencies by running the following command in the project's root directory:</li>
+npm install
 
-**You' ll be able to write your own contract, compile and deploy to multiple network,
-estimate the gas fee and write test verifing the coverage automatically**
+<li>Compile the smart contracts using Hardhat by running the following command:</li>
+npx hardhat compile
 
-### For more information:
+##Additional notes
+<li>Make sure you have Hardhat and its dependencies installed on your machine before running the code. You can find more information on how to do this on the Hardhat website (https://hardhat.org/).</li>
 
-Visit the [github page]().
+<li>The smart contracts in this repository are currently set up to interact with a local development network. If you want to deploy them to a different network, you will need to update the relevant configuration in the hardhat.config.js file.
+Thank you for using this repository. Happy coding!</li>
+</ul>
